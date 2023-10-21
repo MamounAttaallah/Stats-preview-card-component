@@ -1,0 +1,253 @@
+body{
+    margin: 50px;
+    /* font-family: arial; */
+    /* background: #fff; */
+    background-color: hsl(233, 47%, 7%);
+    max-width:1440px ;
+    font-family: 'Inter'
+
+
+}
+
+.welcome{
+    max-width: 1440px;
+    /* margin: 100px 25%; */
+    margin: inherit;
+    /* display: relative; */
+    background-color: hsl(244, 38%, 16%);
+    display: flex;
+    font-size: 15px;
+    border-radius: 5px;
+    
+        
+
+
+
+}
+main{
+    margin: 30px;
+}
+
+header{
+    margin-bottom: 30px;
+}
+
+h1{
+    color: hsl(0, 0%, 100%);
+}
+
+
+.body p{
+    color:hsla(0, 0%, 100%, 0.75) ;
+}
+
+.body{
+    margin-bottom: 40px;
+}
+
+
+
+
+
+.images{
+    background-color:  hsl(277, 64%, 61%);
+    /* opacity: .5; */
+    width: 80%;
+    /* display: absolute;
+    top: 0px;
+    right: 0px; */
+    border-radius: 0 5px 5px 0;
+}
+img{
+    opacity: .5;
+    width: 100%;
+    border-radius: 0 5px 5px 0;
+    height: 100%;
+}
+span{
+    color: hsl(277, 64%, 61%);
+}
+
+.footer{
+    display: flex;
+    /* flex-grow: 1; */
+    color:hsla(0, 0%, 100%, 0.6) ;
+}
+
+.footer strong{
+    color:hsl(0, 0%, 100%); ;
+}
+
+.A{
+    flex:1 1 0;
+}
+
+.B{
+    flex:1 1 0;
+}
+
+.C{
+    flex:1 1 0;
+}
+
+strong{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+@media screen and (max-width: 970px){
+    body{
+        margin: 25px;
+        /* font-family: arial; */
+        /* background: #fff; */
+        /* background-color: hsl(233, 47%, 7%); */
+        /* max-width:970px ; */
+        font-family: 'Lexend Deca'
+    
+    
+    }
+
+    .welcome{
+        /* max-width: 970px; */
+        /* margin: 100px 25%; */
+        margin: 0;
+        /* display: relative; */
+        /* background-color: hsl(244, 38%, 16%); */
+        display: flex;
+        /* font-size: 15px; */
+        /* border-radius: 5px; */
+        height: inherit;
+        
+    }
+
+    main{
+        margin: 20px;
+    }
+
+    /* .banner .welcome {
+        position: relative;
+        text-align: center;
+        padding: 10px;
+    
+    }
+    .banner .welcome br{
+        display: none;
+        
+    }
+    .banner .welcome h2{
+        font-size: 25px;
+    }
+    .banner .welcome span{
+        font-size: 1em;
+    }
+    .images li{
+        width: 100%;
+        margin: 20px auto;
+        display: block;
+    } */
+}
+
+@media screen and (max-width: 700px){
+    body{
+        margin: 15px;
+        /* font-family: arial; */
+        /* background: #fff; */
+        /* background-color: hsl(233, 47%, 7%); */
+        /* max-width:970px ; */
+        font-family: 'Lexend Deca'
+    
+    
+    }
+    .welcome{
+        /* max-width: 970px; */
+        /* margin: 100px 25%; */
+        margin: 0;
+        /* display: relative; */
+        /* background-color: hsl(244, 38%, 16%); */
+        display: flex;
+        /* font-size: 15px; */
+        /* border-radius: 5px; */
+        height: inherit;
+        
+    }
+
+    main{
+        margin: 10px;
+    }
+    header{
+        margin-bottom: 15px;
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 500px){
+    body{
+        margin: 5px;
+        /* font-family: arial; */
+        /* background: #fff; */
+        /* background-color: hsl(233, 47%, 7%); */
+        /* max-width:970px ; */
+        font-family: 'Lexend Deca'
+    
+    
+    }
+    .welcome{
+        /* max-width: 970px; */
+        /* margin: 100px 25%; */
+        margin: 100px 20px;
+        /* display: relative; */
+        /* background-color: hsl(244, 38%, 16%); */
+        display: grid;
+        /* font-size: 15px; */
+        /* border-radius: 5px; */
+        height: inherit;
+        grid-template-rows: repeat(2,1fr);
+        text-align: center;
+        
+    }
+
+    .images{
+        grid-row: 1/2;
+        width: 100%;
+        border-radius: 5px 5px 0 0;
+        height: 100%
+        
+
+
+
+
+    }
+
+    img{
+        border-radius: 5px 5px 0 0;
+
+
+
+    }
+
+    main{
+        grid-row: 2/3;
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+
+    }
+
+    .footer{
+        display: grid;
+    }
+
+    
+
+
+
+
+
+
+
+
+}
